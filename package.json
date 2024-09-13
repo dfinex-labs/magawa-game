@@ -1,0 +1,21 @@
+{
+  "name": "@dfinex-protocol/magawa-game",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run --network mainnet scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.9.0",
+    "@types/chai-as-promised": "^7.1.8",
+    "chai": "^5.1.0",
+    "chai-as-promised": "^7.1.1",
+    "ethers": "^6.11.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@types/chai": "^4.3.11",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.19.5",
+    "typescript": "^5.3.3"
+  }
+}
